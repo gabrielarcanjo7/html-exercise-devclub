@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercise 1 - HTML</title>
+  </head>
+  <body>
+    <header>
+      <h1>Hello, I'm Gabriel</h1>
+    </header>
+
+    <main>
+      <h2>who am I?</h2>
+      <p>
+        Hello, my name is Gabriel. I'm 23 years old and I was born and raised in
+        Paraíba. My dream is to become a great programmer, help my family, and
+        get a good job. I'm also excited to work from home and spend more time
+        with my family. I want to give my best at CodeClub so I can get a job as
+        a programmer!
+      </p>
+
+      <h3>My goals for this year:</h3>
+      <ul>
+        <li>help my family</li>
+        <li>get a job</li>
+        <li>buy a car</li>
+        <li>be valued in my new job</li>
+        <li>I love technology</li>
+        <li>my mother is happy</li>
+      </ul>
+
+      <a
+        href="https://www.linkedin.com/in/gabriel-arcanjo-a21b79281/"
+        target="_blank"
+        >Meu linkedin</a
+      >
+
+      <h3>people I wish were in devclub</h3>
+
+      <ol>
+        <li>My father</li>
+        <li>My cousin</li>
+        <li>John from the corner</li>
+        <li>Everyone</li>
+      </ol>
+
+      <figure>
+        <img src="./img/photo-1508624217470-5ef0f947d8be.jpg" height="700px" alt="Gabriel Arcanjo" />
+        <figcaption>Gabriel Arcanjo</figcaption>
+      </figure>
+
+      <table border="2" cellpadding="10" bordercolor="red">
+        <tr>
+          <th>Nome</th>
+          <th>Valor</th>
+          <th>Origem</th>
+        </tr>
+
+        <tr>
+          <td>Tomato</td>
+          <td>$1,12</td>
+          <td>EUA</td>
+        </tr>
+
+        <tr>
+          <td>Pineapple</td>
+          <td>$3,17</td>
+          <td>Australia</td>
+        </tr>
+
+        <tr>
+          <td>Orange</td>
+          <td>$0,99</td>
+          <td>Australia</td>
+        </tr>
+      </table>
+
+      <!-- <video src="/video/ocean.mp4" -->
+      <video
+        width="500px"
+        height="300px"
+        controls
+        controlsList="nodownload"
+        muted
+        poster="./img/photo-1508624217470-5ef0f947d8be.jpg"
+      >
+        <source src="video/ocean.mkv" />
+        <source src="video/ocean.mov" />
+        <source src="video/ocean.mp4" />
+      </video>
+
+      <iframe
+        width="300"
+        height="200"
+        src="https://www.youtube.com/embed/MJpCfZjnESs?si=u_pifbSLBG2sMqKd"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3437.5032811064357!2d-35.97215911876479!3d-7.148591205588639!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ae9fd325b0dc79%3A0xb42395ad72cc4246!2sStudio%20F%C3%A9%20News!5e0!3m2!1spt-BR!2sbr!4v1750787143435!5m2!1spt-BR!2sbr"
+        width="300"
+        height="200"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+      <br />
+      <label for="rua">Rua:</label>
+      <input
+        id="rua"
+        type="text"
+        autocomplete="street-address"
+        placeholder="Digit your street"
+        autofocus
+      />
+      <br />
+      <input type="color" />
+      <br />
+      <input type="range" min="0" max="10" value="7" />
+      <br />
+      <input type="password" />
+      <br />
+      <input type="email" />
+      <br />
+      <label for="sauce">do you want sauce?</label>
+      <input id="sauce" type="checkbox" />
+      <br />
+      <input type="file" multiple accept="video/*" />
+      <!-- image.*    all kinds of images -->
+      <br />
+      <input type="number" />
+      <br />
+      <input type="date" />
+      <br />
+      <h2>Which is your favorite social media?</h2>
+      <label for="facebook">Facebook</label>
+      <input type="radio" id="facebook" name="redes-sociais" />
+      <label for="instagram">Instagram</label>
+      <input type="radio" id="instagram" name="redes-sociais" />
+      <label for="youtube">Youtube</label>
+      <input type="radio" id="youtube" name="redes-sociais" />
+      <br />
+
+      <form action="" method="get" enctype="multipart/form-data">
+        <h2>Digit your address</h2>
+        <label for="rua">Rua:</label>
+        <input type="text" id="rua" name="rua" autocomplete="street-address" />
+
+        <label for="number">Number:</label>
+        <input
+          type="number"
+          id="number"
+          name="number"
+          autocomplete="street-address"
+        />
+
+        <input type="file" />
+        <br />
+
+        <button type="reset">Reset</button>
+        <button type="submit" disabled>Send data</button>
+      </form>
+    </main>
+  </body>
+</html>
