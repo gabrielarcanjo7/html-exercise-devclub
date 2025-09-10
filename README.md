@@ -1,4 +1,4 @@
-# Exercise 1 - HTML
+# Exercise - HTML
 
 This project is a basic HTML exercise, created to practice and demonstrate various elements and features of the language.
 
@@ -16,7 +16,7 @@ This project is a basic HTML exercise, created to practice and demonstrate vario
 ## How to view
 
 You can view the project online at:  
-[GitHub Pages - Exercise 1 HTML](https://gabrielarcanjo7.github.io/html-exercise-devclub/)
+[GitHub Pages - Exercise HTML](https://gabrielarcanjo7.github.io/html-exercise-devclub/)
 
 Or locally:
 
