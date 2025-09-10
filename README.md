@@ -15,10 +15,15 @@ This project is a basic HTML exercise, created to practice and demonstrate vario
 
 ## How to view
 
+You can view the project online at:  
+[GitHub Pages - Exercise 1 HTML](https://gabrielarcanjo7.github.io/html-exercise-devclub/)
+
+Or locally:
+
 1. Download or clone the repository.
 2. Open the `index.html` file in your browser.
 
 ## Folder structure
 
 - `index.html` - Main project page.
-- `img/` - Image used on the
+- `img/` - Image used on the page.
